@@ -615,7 +615,7 @@ endif()
 #
 # Draco targets.
 #
-if(EMSCRIPTEN AND DRACO_JS_GLUE)
+if(EMSCRIPTEN AND DRACO_JS_GLUE AND MCNEEL_SKIP)
   # Draco decoder and encoder "executable" targets in various flavors for
   # Emscripten.
 
